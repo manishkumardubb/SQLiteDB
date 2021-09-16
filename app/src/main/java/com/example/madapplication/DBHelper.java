@@ -18,13 +18,13 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        db.execSQL("create table users(username Text primary key , password Text)");
+        db.execSQL("create Table users(username Text primary key , password Text)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
-        db.execSQL("drop table if exists users");
+        db.execSQL("drop Table if exists users");
 
     }
 
