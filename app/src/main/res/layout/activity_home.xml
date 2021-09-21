@@ -4,20 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:outlineSpotShadowColor="@color/cardview_light_background"
-    android:background="@color/purple_200"
-
+    android:background="#CAA323"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center"
     tools:context=".HomeActivity">
 
-    <TextView
+
+<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SHARE APPLICATION"
-        android:textColor="#151E2E"
-        android:textStyle="bold"
-        android:textSize="50dp"
-        android:gravity="center_horizontal"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="50dp" />
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text="INTENTs IN APPLICATION"
+        android:textColor="#151E2E"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="299dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4F9A10"
+        android:text="Make a Call"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="299dp"
+        android:layout_height="71dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#203380"
+        android:text="SHARE APPLICATION"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/link"
+        android:layout_width="299dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#B3320A"
+        android:text="OPEN URL"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/map"
+        android:layout_width="299dp"
+        android:layout_height="71dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#59AF9A"
+        android:text="CURRENT LOCATION"
+        android:textSize="20dp" />
+
 
 </LinearLayout>
